@@ -1,0 +1,25 @@
+{
+  "name": "operation-tool",
+  "version": "0.0.0-development",
+  "description": "A package of computing tools",
+  "main": "main.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "start": "webpack --config ./webpack.config.js",
+    "test": "webpack --config ./webpack.test.config.js"
+  },
+  "keywords": [
+    "operation",
+    "tool"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
